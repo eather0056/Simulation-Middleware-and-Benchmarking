@@ -13,6 +13,11 @@ find_package(std_msgs REQUIRED)
 add_executable(mean_node src/mean.cpp)
 ament_target_dependencies(mean_node rclcpp std_msgs)
 
+add_executable(median_node src/median.cpp)
+ament_target_dependencies(median_node rclcpp std_msgs)
+install(TARGETS
+  median_node
+  DESTINATION lib/${PROJECT_NAME})
 install(TARGETS
   mean_node
   DESTINATION lib/${PROJECT_NAME})
