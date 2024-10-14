@@ -4,27 +4,37 @@
 class SumNode : public rclcpp::Node {
 public:
     SumNode() : Node("sum_node"), sum_(0) {
+        // Subscription to "input_topic"
         subscription_ = this->create_subscription<std_msgs::msg::Int32>(
             "input_topic", 10, std::bind(&SumNode::topic_callback, this, std::placeholders::_1));
 
-        // Publisher can be added in Version 5
-        // publisher_ = this->create_publisher<std_msgs::msg::Int32>("output_topic", 10);
+        // Publisher for "output_topic"
+        publisher_ = this->create_publisher<std_msgs::msg::Int32>("output_topic", 10);
     }
 
 private:
     void topic_callback(const std_msgs::msg::Int32::SharedPtr msg) {
+        // Add the incoming value to the sum
         sum_ += msg->data;
-        RCLCPP_INFO(this->get_logger(), "Sum: '%d'", sum_);
-        
-        // For Version 5, to publish sum
-        // auto message = std_msgs::msg::Int32();
-        // message.data = sum_;
-        // publisher_->publish(message);
+
+        // Log the current sum
+        RCLCPP_INFO(this->get_logger(), "Current sum: '%d'", sum_);
+
+        // Create a message to publish the sum
+        auto message = std_msgs::msg::Int32();
+        message.data = sum_;
+
+        // Publish the sum to the output topic
+        publisher_->publish(message);
     }
 
+    // Subscription to receive input data
     rclcpp::Subscription<std_msgs::msg::Int32>::SharedPtr subscription_;
-    // Add a publisher for Version 5
-    // rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_;
+
+    // Publisher to publish the sum result
+    rclcpp::Publisher<std_msgs::msg::Int32>::SharedPtr publisher_;
+
+    // Variable to store the accumulated sum
     int sum_;
 };
 
