@@ -15,9 +15,18 @@ ament_target_dependencies(mean_node rclcpp std_msgs)
 
 add_executable(median_node src/median.cpp)
 ament_target_dependencies(median_node rclcpp std_msgs)
+
+add_executable(mode_node src/mode.cpp)
+ament_target_dependencies(mode_node rclcpp std_msgs)
+
+install(TARGETS
+  mode_node
+  DESTINATION lib/${PROJECT_NAME})
+
 install(TARGETS
   median_node
   DESTINATION lib/${PROJECT_NAME})
+
 install(TARGETS
   mean_node
   DESTINATION lib/${PROJECT_NAME})
