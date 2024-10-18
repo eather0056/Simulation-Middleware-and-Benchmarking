@@ -1,0 +1,10 @@
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/uninstall.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/robot_trajectory_uninstall.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/square.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/test.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/edit_cache.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/rebuild_cache.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/list_install_components.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/install.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/install/local.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/CMakeFiles/install/strip.dir
