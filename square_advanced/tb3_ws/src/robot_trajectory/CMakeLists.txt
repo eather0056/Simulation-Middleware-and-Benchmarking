@@ -9,14 +9,19 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(turtlesim REQUIRED)
 
 add_executable(square src/square.cpp)
 
-ament_target_dependencies(square rclcpp geometry_msgs)
+ament_target_dependencies(square rclcpp geometry_msgs turtlesim)
 
 install(TARGETS
   square
   DESTINATION lib/${PROJECT_NAME})
+
+  # Install launch files.
+install(DIRECTORY launch/
+DESTINATION share/${PROJECT_NAME}/launch)
   
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

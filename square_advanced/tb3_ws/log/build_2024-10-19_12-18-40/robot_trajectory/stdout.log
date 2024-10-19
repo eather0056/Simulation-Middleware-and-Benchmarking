@@ -33,7 +33,9 @@
 -- Added test 'cppcheck' to perform static code analysis on C / C++ code
 -- Configured cppcheck include dirs: 
 -- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
 -- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
 -- Added test 'uncrustify' to check C / C++ code style
 -- Configured uncrustify additional arguments: 
 -- Added test 'xmllint' to check XML markup files
@@ -46,6 +48,8 @@
 -- Install configuration: ""
 -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square
 -- Set runtime path of "/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/lib/robot_trajectory/square" to ""
+-- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/share/robot_trajectory/launch
+-- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/share/robot_trajectory/launch/square.launch.py
 -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/package_run_dependencies/robot_trajectory
 -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/share/ament_index/resource_index/parent_prefix_path/robot_trajectory
 -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/install/robot_trajectory/share/robot_trajectory/environment/ament_prefix_path.sh

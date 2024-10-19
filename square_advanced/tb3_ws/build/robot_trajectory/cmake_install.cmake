@@ -63,6 +63,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_trajectory/launch" TYPE DIRECTORY FILES "/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/src/robot_trajectory/launch/")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/eth/Documents/UJI/Simulation and Midleware/activity_1/square_advanced/tb3_ws/build/robot_trajectory/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_trajectory")
 endif()
 
