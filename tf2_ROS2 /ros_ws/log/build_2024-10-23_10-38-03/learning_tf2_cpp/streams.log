@@ -1,0 +1,72 @@
+[0.015s] Invoking command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp
+[0.124s] -- The C compiler identification is GNU 11.4.0
+[0.206s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.281s] -- Detecting C compiler ABI info - done
+[0.288s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.288s] -- Detecting C compile features
+[0.289s] -- Detecting C compile features - done
+[0.292s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.371s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.371s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.381s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.830s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.972s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.044s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.055s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.069s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.089s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.121s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.176s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.247s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.253s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.356s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.384s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.432s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.452s] -- Looking for pthread.h
+[1.516s] -- Looking for pthread.h - found
+[1.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.580s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.581s] -- Found Threads: TRUE  
+[1.641s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[1.658s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.782s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[1.804s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.929s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.929s] -- Configured cppcheck include dirs: 
+[1.929s] -- Configured cppcheck exclude dirs and/or files: 
+[1.930s] -- Added test 'lint_cmake' to check CMake code style
+[1.932s] -- Added test 'uncrustify' to check C / C++ code style
+[1.932s] -- Configured uncrustify additional arguments: 
+[1.933s] -- Added test 'xmllint' to check XML markup files
+[1.935s] -- Configuring done
+[1.946s] -- Generating done
+[1.948s] -- Build files have been written to: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp
+[1.958s] Invoked command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/src/learning_tf2_cpp -DCMAKE_INSTALL_PREFIX=/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp
+[1.960s] Invoking command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp -- -j8 -l8
+[2.002s] [ 50%] [32mBuilding CXX object CMakeFiles/static_turtle_tf2_broadcaster.dir/src/static_turtle_tf2_broadcaster.cpp.o[0m
+[5.685s] [100%] [32m[1mLinking CXX executable static_turtle_tf2_broadcaster[0m
+[5.859s] [100%] Built target static_turtle_tf2_broadcaster
+[5.869s] Invoked command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp -- -j8 -l8
+[5.900s] Invoking command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp
+[5.906s] -- Install configuration: ""
+[5.906s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster
+[5.907s] -- Set runtime path of "/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/lib/learning_tf2_cpp/static_turtle_tf2_broadcaster" to ""
+[5.907s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/ament_index/resource_index/package_run_dependencies/learning_tf2_cpp
+[5.908s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/ament_index/resource_index/parent_prefix_path/learning_tf2_cpp
+[5.908s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.sh
+[5.908s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/ament_prefix_path.dsv
+[5.908s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.sh
+[5.908s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/environment/path.dsv
+[5.909s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.bash
+[5.909s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.sh
+[5.909s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.zsh
+[5.909s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/local_setup.dsv
+[5.910s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.dsv
+[5.910s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/ament_index/resource_index/packages/learning_tf2_cpp
+[5.910s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig.cmake
+[5.911s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/cmake/learning_tf2_cppConfig-version.cmake
+[5.911s] -- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/install/learning_tf2_cpp/share/learning_tf2_cpp/package.xml
+[5.913s] Invoked command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/eth/Documents/UJI/Simulation and Midleware/activity_1/tf2_ROS2 /ros_ws/build/learning_tf2_cpp
