@@ -14,7 +14,6 @@ def generate_launch_description():
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('learning_tf2_cpp'), 'launch'),
             '/turtle_tf2_demo.launch.py']),
-            
         launch_arguments={'target_frame': 'carrot1'}.items(),
         )
 
@@ -22,7 +21,7 @@ def generate_launch_description():
         demo_nodes,
         Node(
             package='learning_tf2_cpp',
-            executable='fixed_frame_tf2_broadcaster',
-            name='fixed_broadcaster',
+            executable='dynamic_frame_tf2_broadcaster',
+            name='dynamic_broadcaster',
         ),
     ])

@@ -14,6 +14,8 @@ def generate_launch_description():
         PythonLaunchDescriptionSource([os.path.join(
             get_package_share_directory('learning_tf2_cpp'), 'launch'),
             '/turtle_tf2_demo.launch.py']),
+            
+        launch_arguments={'target_frame': 'carrot1'}.items(),
         )
 
     return LaunchDescription([

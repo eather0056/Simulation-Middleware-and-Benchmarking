@@ -249,6 +249,43 @@ fixed_frame_tf2_broadcaster/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fixed_frame_tf2_broadcaster.dir/build.make CMakeFiles/fixed_frame_tf2_broadcaster.dir/build
 .PHONY : fixed_frame_tf2_broadcaster/fast
 
+#=============================================================================
+# Target rules for targets named dynamic_frame_tf2_broadcaster
+
+# Build rule for target.
+dynamic_frame_tf2_broadcaster: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 dynamic_frame_tf2_broadcaster
+.PHONY : dynamic_frame_tf2_broadcaster
+
+# fast build rule for target.
+dynamic_frame_tf2_broadcaster/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_frame_tf2_broadcaster.dir/build.make CMakeFiles/dynamic_frame_tf2_broadcaster.dir/build
+.PHONY : dynamic_frame_tf2_broadcaster/fast
+
+src/dynamic_frame_tf2_broadcaster.o: src/dynamic_frame_tf2_broadcaster.cpp.o
+.PHONY : src/dynamic_frame_tf2_broadcaster.o
+
+# target to build an object file
+src/dynamic_frame_tf2_broadcaster.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_frame_tf2_broadcaster.dir/build.make CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.o
+.PHONY : src/dynamic_frame_tf2_broadcaster.cpp.o
+
+src/dynamic_frame_tf2_broadcaster.i: src/dynamic_frame_tf2_broadcaster.cpp.i
+.PHONY : src/dynamic_frame_tf2_broadcaster.i
+
+# target to preprocess a source file
+src/dynamic_frame_tf2_broadcaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_frame_tf2_broadcaster.dir/build.make CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.i
+.PHONY : src/dynamic_frame_tf2_broadcaster.cpp.i
+
+src/dynamic_frame_tf2_broadcaster.s: src/dynamic_frame_tf2_broadcaster.cpp.s
+.PHONY : src/dynamic_frame_tf2_broadcaster.s
+
+# target to generate assembly for a file
+src/dynamic_frame_tf2_broadcaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dynamic_frame_tf2_broadcaster.dir/build.make CMakeFiles/dynamic_frame_tf2_broadcaster.dir/src/dynamic_frame_tf2_broadcaster.cpp.s
+.PHONY : src/dynamic_frame_tf2_broadcaster.cpp.s
+
 src/fixed_frame_tf2_broadcaster.o: src/fixed_frame_tf2_broadcaster.cpp.o
 .PHONY : src/fixed_frame_tf2_broadcaster.o
 
@@ -360,10 +397,14 @@ help:
 	@echo "... test"
 	@echo "... learning_tf2_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... dynamic_frame_tf2_broadcaster"
 	@echo "... fixed_frame_tf2_broadcaster"
 	@echo "... static_turtle_tf2_broadcaster"
 	@echo "... turtle_tf2_broadcaster"
 	@echo "... turtle_tf2_listener"
+	@echo "... src/dynamic_frame_tf2_broadcaster.o"
+	@echo "... src/dynamic_frame_tf2_broadcaster.i"
+	@echo "... src/dynamic_frame_tf2_broadcaster.s"
 	@echo "... src/fixed_frame_tf2_broadcaster.o"
 	@echo "... src/fixed_frame_tf2_broadcaster.i"
 	@echo "... src/fixed_frame_tf2_broadcaster.s"

@@ -49,6 +49,14 @@ ament_target_dependencies(
     tf2_ros
 )
 
+add_executable(dynamic_frame_tf2_broadcaster src/dynamic_frame_tf2_broadcaster.cpp)
+ament_target_dependencies(
+    dynamic_frame_tf2_broadcaster
+    geometry_msgs
+    rclcpp
+    tf2_ros
+)
+
 install(TARGETS
    static_turtle_tf2_broadcaster
    DESTINATION lib/${PROJECT_NAME})
@@ -65,7 +73,11 @@ install(TARGETS
     fixed_frame_tf2_broadcaster
     DESTINATION lib/${PROJECT_NAME})
 
-    
+
+install(TARGETS
+    dynamic_frame_tf2_broadcaster
+    DESTINATION lib/${PROJECT_NAME})
+
 install(DIRECTORY launch
     DESTINATION share/${PROJECT_NAME})
 
