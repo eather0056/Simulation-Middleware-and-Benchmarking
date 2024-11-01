@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target wander_and_avoid[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/wander_and_avoid.dir/src/wander_and_avoid.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable wander_and_avoid[0m
+[ 50%] Built target wander_and_avoid
+[100%] Built target follower_robot
+-- Install configuration: ""
+-- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/wander_and_avoid/wander_and_avoid
+-- Set runtime path of "/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/wander_and_avoid/wander_and_avoid" to ""
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/wander_and_avoid/follower_robot
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/launch
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/launch/robots_with_world_tf.launch.py
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/ament_index/resource_index/package_run_dependencies/wander_and_avoid
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/ament_index/resource_index/parent_prefix_path/wander_and_avoid
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/environment/ament_prefix_path.sh
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/environment/path.sh
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/environment/path.dsv
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/local_setup.bash
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/local_setup.sh
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/local_setup.zsh
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/local_setup.dsv
+-- Installing: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.dsv
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/ament_index/resource_index/packages/wander_and_avoid
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/cmake/wander_and_avoidConfig.cmake
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/cmake/wander_and_avoidConfig-version.cmake
+-- Up-to-date: /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.xml

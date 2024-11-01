@@ -1,0 +1,11 @@
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/uninstall.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/wander_and_avoid_uninstall.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/wander_and_avoid.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/follower_robot.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/test.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/edit_cache.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/rebuild_cache.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/list_install_components.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/install.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/install/local.dir
+/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid/CMakeFiles/install/strip.dir

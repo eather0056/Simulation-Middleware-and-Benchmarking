@@ -1,0 +1,4 @@
+source;share/wander_and_avoid/local_setup.bash
+source;share/wander_and_avoid/local_setup.dsv
+source;share/wander_and_avoid/local_setup.sh
+source;share/wander_and_avoid/local_setup.zsh

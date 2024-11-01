@@ -1,0 +1,7 @@
+[01m[K/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/wander_and_avoid/src/wander_and_avoid.cpp:[m[K In constructor ‘[01m[KWanderAndAvoid::WanderAndAvoid()[m[K’:
+[01m[K/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/wander_and_avoid/src/wander_and_avoid.cpp:13:50:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KWanderAndAvoid[m[K’ does not have any field named ‘[01m[Kreverse_counter_[m[K’
+   13 |     WanderAndAvoid() : Node("wander_and_avoid"), [01;31m[Kreverse_counter_[m[K(0)
+      |                                                  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/wander_and_avoid.dir/build.make:76: CMakeFiles/wander_and_avoid.dir/src/wander_and_avoid.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/wander_and_avoid.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

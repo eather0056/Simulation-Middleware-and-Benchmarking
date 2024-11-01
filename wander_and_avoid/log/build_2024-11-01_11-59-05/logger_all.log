@@ -1,0 +1,129 @@
+[0.536s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.536s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72f22fa76080>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72f22fb72860>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72f22fb72860>>, mixin_verb=('build',))
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.465s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.465s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.568s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.570s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extensions ['ignore', 'ignore_ament_install']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extension 'ignore'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extension 'ignore_ament_install'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extensions ['colcon_pkg']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extension 'colcon_pkg'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extensions ['colcon_meta']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extension 'colcon_meta'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extensions ['ros']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(wander_and_avoid) by extension 'ros'
+[1.580s] DEBUG:colcon.colcon_core.package_identification:Package 'wander_and_avoid' with type 'ros.ament_cmake' and name 'wander_and_avoid'
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.674s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install
+[1.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/eth/bookros2_ws/install
+[1.683s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/eth/ros2_ws/install
+[1.688s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 378 installed packages in /opt/ros/humble
+[1.694s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.890s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'cmake_args' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'cmake_target' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'cmake_clean_cache' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'cmake_clean_first' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'cmake_force_configure' from command line to 'False'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'ament_cmake_args' from command line to 'None'
+[1.891s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'catkin_cmake_args' from command line to 'None'
+[1.892s] Level 5:colcon.colcon_core.verb:set package 'wander_and_avoid' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.892s] DEBUG:colcon.colcon_core.verb:Building package 'wander_and_avoid' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid', 'merge_install': False, 'path': '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/wander_and_avoid', 'symlink_install': False, 'test_result_base': None}
+[1.893s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.896s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.897s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/wander_and_avoid' with build type 'ament_cmake'
+[1.897s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/wander_and_avoid'
+[1.904s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.905s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.905s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid -- -j8 -l8
+[28.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --build /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid -- -j8 -l8
+[28.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid
+[29.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wander_and_avoid)
+[29.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/eth/ros2_ws/install/teleop_twist_keyboard:/home/eth/ros2_ws/install/rov_practical:/home/eth/ros2_ws/install/ros_tcp_endpoint:/home/eth/ros2_ws/install/opencv_tools:/home/eth/ros2_ws/install/autonomous_rov:/home/eth/bookros2_ws/install/launch_pal:/home/eth/bookros2_ws/install/br2_vff_avoidance_py:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py_ex_1:/home/eth/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble /usr/bin/cmake --install /home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/build/wander_and_avoid
+[29.016s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid' for CMake module files
+[29.018s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid' for CMake config files
+[29.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('wander_and_avoid', 'cmake_prefix_path')
+[29.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/hook/cmake_prefix_path.ps1'
+[29.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/hook/cmake_prefix_path.dsv'
+[29.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/hook/cmake_prefix_path.sh'
+[29.025s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib'
+[29.026s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/bin'
+[29.026s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/pkgconfig/wander_and_avoid.pc'
+[29.027s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/python3.10/site-packages'
+[29.028s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/bin'
+[29.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.ps1'
+[29.032s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.dsv'
+[29.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.sh'
+[29.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.bash'
+[29.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.zsh'
+[29.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/colcon-core/packages/wander_and_avoid)
+[29.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wander_and_avoid)
+[29.122s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid' for CMake module files
+[29.123s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid' for CMake config files
+[29.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('wander_and_avoid', 'cmake_prefix_path')
+[29.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/hook/cmake_prefix_path.ps1'
+[29.125s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/hook/cmake_prefix_path.dsv'
+[29.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/hook/cmake_prefix_path.sh'
+[29.128s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib'
+[29.129s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/bin'
+[29.129s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/pkgconfig/wander_and_avoid.pc'
+[29.130s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/lib/python3.10/site-packages'
+[29.132s] Level 1:colcon.colcon_core.environment:checking '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/bin'
+[29.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.ps1'
+[29.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.dsv'
+[29.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.sh'
+[29.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.bash'
+[29.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/wander_and_avoid/package.zsh'
+[29.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/wander_and_avoid/share/colcon-core/packages/wander_and_avoid)
+[29.141s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.142s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.142s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.142s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.166s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.166s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.212s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/local_setup.ps1'
+[29.218s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/_local_setup_util_ps1.py'
+[29.225s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/setup.ps1'
+[29.233s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/local_setup.sh'
+[29.235s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/_local_setup_util_sh.py'
+[29.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/setup.sh'
+[29.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/local_setup.bash'
+[29.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/setup.bash'
+[29.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/local_setup.zsh'
+[29.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/eth/Documents/UJI/Simulation and Midleware/activity_1/wander_and_avoid/install/setup.zsh'
